@@ -1,0 +1,16 @@
+# Abaikan seluruh file CSV di dalam folder data
+**/data/*.csv
+*.csv
+
+# Abaikan file zip atau file besar lainnya
+*.zip
+*.rar
+
+# Abaikan folder virtual environment Python / cache jika ada
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# Abaikan file sistem Windows
+Thumbs.db
+Desktop.ini

@@ -83,3 +83,10 @@ Diperlukan `pandas`, `numpy`, dan `playwright` untuk pengujian browser (pembuata
 ## Pembaruan V9 — Advanced Analytics
 
 Tambahan tab keenam untuk K-Medoids + WDTW, dengan **K=6 utama** dan **K=3 pembanding**, profil waktu bulanan 2025, peta kelompok, keanggotaan medoid, perbandingan konsentrasi asli dan metrik validasi. Baca `ADVANCED_ANALYTICS_GUIDE.md` untuk metode, penggunaan tab, batasan interpretasi, dan status pengujian browser.
+
+## 📁 Dataset & Preprocessing
+
+Dataset yang digunakan dalam proyek ini merupakan dataset resmi **Preliminary Round Dashboard Analysis Gelar Rasa 2026**.
+
+> **Catatan Penggunaan Data:**
+> Berkas data mentah (`.csv`) disembunyikan dari repository ini sesuai praktik terbaik (best practices) pengelolaan repository data science. Seluruh skrip otomatis pembersihan data, pengolahan *Quality Control* (QC), serta pembentukan matriks analisis dapat diakses pada folder `scripts/` dan `analysis/`.
